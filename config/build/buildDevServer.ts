@@ -5,5 +5,6 @@ export function buildDevServer(options: BuildOptions): DevServerConfiguration {
     return {
         port: options.port ?? 3001,
         open: true,
+        hot: true,
     };
 }
